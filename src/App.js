@@ -1,10 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Head from "./components/Head";
+import Body from "./components/Body";
 
 const AppLayout = () => {
     return(
         <div>
-             <h1 className="text-3xl font-bold underline">Hello</h1>
+            <Head />
+            <Body />
         </div>
     )
 }
